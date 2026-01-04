@@ -1,0 +1,13 @@
+# Exemple de configuration à ajouter dans book-service/src/main/resources/application.yml
+# Pour l'étape G1 - Exposer les métriques Actuator
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,info,metrics"
+
+# Optionnel : pour voir les logs Resilience4j (étape G3)
+logging:
+  level:
+    io.github.resilience4j: INFO
