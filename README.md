@@ -55,3 +55,7 @@ Voir `application.yml.example` pour un exemple complet.
 - Les tests répartissent les requêtes sur les ports 8081, 8083 et 8084
 - Le script Bash nécessite `curl` et fonctionne mieux sous Linux/Mac/WSL
 - Le script PowerShell nécessite PowerShell 5.1+ ou PowerShell Core
+
+
+![Health Check Actuator](TP27.png)
+![Health Check Actuator](TP271.png)
